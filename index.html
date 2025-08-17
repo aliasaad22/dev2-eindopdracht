@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>DEV2 - Werkstuk</title>
+		<link href="assets/style.css" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script type="module" src="./js/index.js" defer></script>
+	</head>
+	<body>
+		<h1>Premier League Seizoenen</h1>
+
+		<div class="controls">
+			<label for="sort">Sorteer op: </label>
+			<select id="sort">
+				<option value="newest">Nieuwste eerst</option>
+				<option value="oldest">Oudste eerst</option>
+				<option value="winner">Winnaar A-Z</option>
+			</select>
+
+			<label for="view">Weergave: </label>
+			<select id="view">
+				<option value="table">Tabel</option>
+				<option value="chart">Grafiek</option>
+			</select>
+		</div>
+
+		<table id="seasonsTable">
+			<thead>
+				<tr>
+					<th>Seizoen</th>
+					<th>Winnaar</th>
+					<th>Logo</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+
+		<h2>Titels per Club</h2>
+		<canvas id="chart" width="600" height="400" style="display: none"></canvas>
+	</body>
+</html>
