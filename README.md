@@ -5,7 +5,7 @@
 Een interactieve webapplicatie die seizoensgegevens van de Engelse Premier League ophaalt via de Football-Data.org API.  
 Gebruikers kunnen de seizoenen sorteren (nieuwste, oudste, winnaar), schakelen tussen een tabelweergave en een grafiek, en clublogo’s bekijken van de winnende teams.
 
-🔗 **Live demo**: [https://ehb-mct.github.io/dev2-course-project-aliasaad22](https://github.com/aliasaad22/dev2-eindopdracht)  
+🔗 **Live demo**: [https://github.com/aliasaad22/dev2-eindopdracht](https://github.com/aliasaad22/dev2-eindopdracht)  
 📁 **GitHub repository**: [https://github.com/EHB-MCT/dev2-course-project-aliasaad22](https://github.com/EHB-MCT/dev2-course-project-aliasaad22)
 
 ---
